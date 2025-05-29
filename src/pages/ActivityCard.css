@@ -1,0 +1,57 @@
+.activity-card {
+  background-color: var(--color-card-background);
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  border: 1px solid var(--color-border-subtle);
+}
+
+.activity-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+}
+
+.card-content {
+  padding: 25px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-content h3 {
+  margin-top: 0;
+  font-size: 1.6em;
+  color: var(--color-white-text);
+  margin-bottom: 12px;
+}
+
+.card-content p {
+  font-size: 1em;
+  color: var(--color-light-gray);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.card-button {
+  display: inline-block;
+  background-color: var(--color-accent-yellow);
+  color: var(--color-dark-gray-base);
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  align-self: flex-start;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-button:hover {
+  background-color: var(--color-accent-yellow-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
