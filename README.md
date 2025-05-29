@@ -104,7 +104,6 @@ Este proyecto está configurado para ser desplegado fácilmente en GitHub Pages.
 ---
 
 ## 🔗 Enlace al Proyecto Desplegado
-[Enlace a tu Proyecto en GitHub Pages Aquí]
-(Ej: `https://[tu-usuario].github.io/[nombre-de-tu-repositorio]`)
+https://jm4uri.github.io/ProyectoFinalGeo/
 
 ---
